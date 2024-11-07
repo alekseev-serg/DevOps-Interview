@@ -590,17 +590,11 @@ lint > tests > build > SAST > QG > deliver > deploy
 Артефакт это результат работы job, которые создаются в процессе работы пайплайна. Разнообразные логи, отчеты, либо готовые билды. 
 
 ---
-### Вопрос: Есть два бренча: dev и stage. Мы забросили Dockerfile в dev, а затем сбилдили в dev и stage. Это будет одним артефактом или разными?
+### Вопрос: Сравните CI инструментов: Jenkins, GitLab CI, AWS Code Pipeline, GCP cloudbuild, GitHub Actions, Circle CI.
 **Ответ:** 
-
-
----
-### Вопрос: Что вы использовали для автоматизации настройки Jenkins и GitLab CI?
-**Ответ:** 
-
----
-### Вопрос: Сравните CI инструментов: Jenkins, GitLab CI, AWS Code Pipeline, GCP cloudbuild, GitHub actions, Circle CI.
-**Ответ:** 
+Jenkins - инструмент бесплатный, куча плагинов, настроек, не юзер-френдли.
+Gitlab CI - инструмент 
+GitHub Actions - инструмент
 
 ---
 ### Вопрос: Deployment strategies. Какие существуют и чем отличаются (recreate, blue-green, canary etc.)?
