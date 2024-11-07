@@ -592,8 +592,8 @@ lint > tests > build > SAST > QG > deliver > deploy
 ---
 ### Вопрос: Сравните CI инструментов: Jenkins, GitLab CI, AWS Code Pipeline, GCP cloudbuild, GitHub Actions, Circle CI.
 **Ответ:** 
-Jenkins - инструмент бесплатный, куча плагинов, настроек, не юзер-френдли.
-Gitlab CI - инструмент 
+Jenkins - инструмент бесплатный, куча плагинов, настроек, не юзер-френдли. Пайплайн на groovy.
+Gitlab CI - инструмент бесплатный, но ограничение есть. Пайплайн декларативный yaml.
 GitHub Actions - инструмент
 
 ---
